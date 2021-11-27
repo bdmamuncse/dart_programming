@@ -17,8 +17,48 @@ void main() {
   //argument/parameter-> two types
   //1)normal-argument 2)positional argument
   // displayWithNormalArgument('asdfadsfafas');
-  displayWithoutNormalArgument(yourId:'110', yourName: 'Sazzad');
+  // displayWithoutNormalArgument(yourId:'110', yourName: 'Sazzad');
+  // print(sum2(11, 23));
+  // print(sum2(30, 40));
+  // print(sum2(100, 110));
+  var result=sum2(137,145);
+  print(result);
 
+  var result4=subtraction(157,145);
+  print(result4);
+
+  var result5=divition(137,145);
+  print(result5);
+
+
+}
+
+int subtraction(int v1, int v2){
+  var subtraction=v1-v2;
+  return subtraction;
+}
+
+int multiplication(int v1, int v2){
+  var multiplication=v1*v2;
+  return multiplication;
+}
+
+double divition(double v1, double v2){
+  var divition=v1/v2;
+  return divition;
+}
+
+
+int sum1(){
+  var value1=10;
+  var value2=20;
+  var addition=value1+value2;
+  return addition;
+}
+
+int sum2(int v1, int v2){
+  var addition=v1+v2;
+  return addition;
 }
 
 void displayWithNormalArgument(String msg){
