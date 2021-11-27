@@ -21,15 +21,18 @@ void main() {
   // print(sum2(11, 23));
   // print(sum2(30, 40));
   // print(sum2(100, 110));
+
   var result=sum2(137,145);
   print(result);
 
   var result4=subtraction(157,145);
   print(result4);
 
+  var result6=multiplication(137,145);
+  print(result6);
+
   var result5=divition(137,145);
   print(result5);
-
 
 }
 
